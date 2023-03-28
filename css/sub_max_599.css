@@ -1,0 +1,251 @@
+@charset "utf-8";
+
+@media(max-width:599px){
+    
+#sub {width:100%; height:auto; background: linear-gradient(to bottom, #06195b 0%, #009dd0 100%);}
+
+#sub > #background_box1 {width: 39vw; height: 200px; position: absolute; top: 6202px; right: 10px; display: none;}
+#sub > #background_box1 > img {width: 100%; height: 100%;}
+#sub > #background_box1_2 {width: 40vw; height: 200px; position: absolute; top: 6202px; left: 0px; display: none;}
+#sub > #background_box1_2 > img {width: 100%; height: 100%;}
+#sub > #background_box1_3 {width: 30vw; height: 150px; position: absolute; top: 4485px; left: 500px; display: none;}
+#sub > #background_box1_3 > img {width: 100%; height: 100%;}
+#sub > #background_box2_1 {width: 5vw; height: 80px; position: absolute; top: 200px; right: 550px; display: none;}
+#sub > #background_box2_1 > img {width: 100%; height: 100%;}
+#sub > #background_box2_2 {width: 3vw; height: 50px; position: absolute; top: 400px; right: 250px; display: none;}
+#sub > #background_box2_2 > img {width: 100%; height: 100%;}
+#sub > #background_box2_3 {width: 100vw; height: 250px; position: absolute; top: 200px; right: 0px;}
+#sub > #background_box2_3 > img {width: 100%; height: 100%;}
+#sub > #background_box3 {width: 10vw; height: 80px; position: absolute; top: 5480px; right: 90px; transform: scaleX(-1); display: none;}
+#sub > #background_box3 > img {width: 100%; height: 100%;}
+#sub > #background_box3_1 {width: 10vw; height: 80px; position: absolute; top: 5400px; left: 100px; transform: rotate(90deg); display: none;}
+#sub > #background_box3_1 > img {width: 100%; height: 100%;}
+
+/*컨퍼런스*/
+#conference {width: 100%; height: auto; background: linear-gradient(to bottom, #071959 0%, #009dd0 100%); margin: 0 auto;}
+#conference > #conference_box {width: 100%; height: 300px; margin: 0 auto;  position: relative; top: 220px; left: 0px; display: flex; justify-content: space-between; align-items: center;}
+
+#conference > #conference_box > .conference_img {width: 50px; height: 50px; display: none;}
+#conference > #conference_box > .conference_img > img {width: 100%; height: 100%;}
+
+#conference > #conference_box > #conference_text {width: 95%; height: 200px;}
+#conference > #conference_box > #conference_text > #conference_title {width: 340px; height: 100px; margin: 0 auto;}
+#conference > #conference_box > #conference_text > #conference_title > h1 {font-family: 'Federo', sans-serif; font-size: 50px; color: #fff; margin: 0 auto; position: relative; top: 50px; left: 0px; font-weight: bold;}
+#conference > #conference_box > #conference_text > #conference_explanation {width: 340px; height: 80px; margin: 0 auto;}
+#conference > #conference_box > #conference_text > #conference_explanation > p {font-family: 'Gowun Dodum', sans-serif; font-size: 17px; color: #cbcff3; text-align: center; margin-top: 20px; line-height: 25px; font-weight: bold; display: none;}
+
+
+#sub_box {width: 100%; height: auto; background: linear-gradient(to bottom, #072666 0%, #009dd0 100%); margin-top: 280px; display: flex; flex-flow: column; justify-content: space-between;}
+
+
+/*왼쪽박스*/
+#sub_box > #left_box {width: 95%; height: auto; margin-top: 20px; margin: 0 auto;}
+
+/*박스1*/
+#sub_box > #left_box > #box1 {width: 100%; height: 1500px; margin-top: 60px;}
+#sub_box > #left_box > #box1 > #box1_high {width: 100%; height: 710px;}
+
+#sub_box > #left_box > #box1 > #box1_high > #box {width: 100%; height: 120px; display: flex; flex-flow: column;}
+#sub_box > #left_box > #box1 > #box1_high > #box > #title {width: 100%; height: 50px;}
+#sub_box > #left_box > #box1 > #box1_high > #box > #title > h1 {font-family: 'Federo', sans-serif; font-size: 50px; color: #fff; margin-top: 30px; margin-left: 10px;}
+#sub_box > #left_box > #box1 > #box1_high > #box > #title > h1 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 25px; color: #fff;}
+
+#sub_box > #left_box > #box1 > #box1_high > #box > #designer {width: 100%; height: 30px; text-align: right; margin-top: 23px; margin-top: 40px;}
+#sub_box > #left_box > #box1 > #box1_high > #box > #designer > h4 {font-family: 'Federo', sans-serif; font-size: 30px; color: #fff; margin-right: 10px;}
+#sub_box > #left_box > #box1 > #box1_high > #box > #designer > h4 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 15px; color: #fff;}
+
+
+#sub_box > #left_box > #box1 > #box1_high > .imgbox {width: 100%; height: 280px;}
+#sub_box > #left_box > #box1 > #box1_high > .imgbox > img {width: 100%; height: 100%;}
+#sub_box > #left_box > #box1 > #box1_high > .imgbox2 {width: 100%; height: 270px; margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; position: relative;}
+#sub_box > #left_box > #box1 > #box1_high > .imgbox2 > .imgbox {width: 100%; height: 250px; margin-top: 5px;}
+#sub_box > #left_box > #box1 > #box1_high > .imgbox2 > .imgbox > img {width: 100%; height: 100%;}
+
+
+#sub_box > #left_box > #box1 > #box1_center {width: 100%; height: 300px;  display: flex; justify-content: space-between;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text {width: 100%; height: 300px; margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; margin-top: 230px;}
+
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information {width: 100%; height: 140px; display: flex; flex-flow: column; justify-content: space-between;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_1 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_1 > #date {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_1 > #date > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_1 > #date > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px; font-weight: bold;}
+
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_2 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_2 > #place {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_2 > #place > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_2 > #place > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_3 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_3 > #language {width: 277px; height: 40px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_3 > #language > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #information > #information_3 > #language > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #explanation {width: 100%; height: 300px;}
+
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #explanation > #in_explanation {width: 100%; height: 180px;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #explanation > #in_explanation > h1 {font-family: 'Gowun Dodum', sans-serif; color: #cbcff3; font-size: 16px; text-align: center; margin-top: 20px; font-weight: bold;}
+#sub_box > #left_box > #box1 > #box1_center > #box_text > #explanation > #in_explanation > p {font-family: 'Gowun Dodum', sans-serif; color: #fff; font-size: 14px; text-align: justify; padding: 0px 10px; letter-spacing: 2px; line-height: 18px;}
+
+
+
+
+
+/*박스2*/
+#sub_box > #left_box > #box2 {width: 100%; height: 1500px; margin-top: 100px;}
+#sub_box > #left_box > #box2 > #box2_high {width: 100%; height: 710px;}
+
+#sub_box > #left_box > #box2 > #box2_high > #box {width: 100%; height: 120px; display: flex; flex-flow: column;}
+#sub_box > #left_box > #box2 > #box2_high > #box > #title {width: 100%; height: 50px;}
+#sub_box > #left_box > #box2 > #box2_high > #box > #title > h1 {font-family: 'Federo', sans-serif; font-size: 43px; color: #fff; margin-top: 28px; margin-left: 10px;}
+#sub_box > #left_box > #box2 > #box2_high > #box > #title > h1 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 20px; color: #fff; position: relative; bottom: 20px;}
+
+#sub_box > #left_box > #box2 > #box2_high > #box > #designer {width: 100%; height: 30px; text-align: right; margin-top: 23px; margin-top: 40px;}
+#sub_box > #left_box > #box2 > #box2_high > #box > #designer > h4 {font-family: 'Federo', sans-serif; font-size: 30px; color: #fff; margin-right: 10px;}
+#sub_box > #left_box > #box2 > #box2_high > #box > #designer > h4 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 15px; color: #fff;}
+
+
+#sub_box > #left_box > #box2 > #box2_high > .imgbox {width: 100%; height: 280px;}
+#sub_box > #left_box > #box2 > #box2_high > .imgbox > img {width: 100%; height: 100%;}
+#sub_box > #left_box > #box2 > #box2_high > .imgbox2 {width: 100%; height: 270px; margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; position: relative;}
+#sub_box > #left_box > #box2 > #box2_high > .imgbox2 > .imgbox {width: 100%; height: 250px; margin-top: 5px;}
+#sub_box > #left_box > #box2 > #box2_high > .imgbox2 > .imgbox > img {width: 100%; height: 100%;}
+
+#sub_box > #left_box > #box2 > #box2_center {width: 100%; height: 300px; display: flex; justify-content: space-between;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text {width: 100%; height: 300px;  margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; margin-top: 230px;}
+
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information {width: 100%; height: 140px; display: flex; flex-flow: column; justify-content: space-between;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_1 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_1 > #date {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_1 > #date > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_1 > #date > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px; font-weight: bold;}
+
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_2 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_2 > #place {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_2 > #place > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_2 > #place > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_3 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_3 > #language {width: 277px; height: 40px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_3 > #language > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #information > #information_3 > #language > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #explanation {width: 100%; height: 300px;}
+
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #explanation > #in_explanation {width: 100%; height: 180px;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #explanation > #in_explanation > h1 {font-family: 'Gowun Dodum', sans-serif; color: #cbcff3; font-size: 16px; text-align: center; margin-top: 20px; font-weight: bold;}
+#sub_box > #left_box > #box2 > #box2_center > #box_text > #explanation > #in_explanation > p {font-family: 'Gowun Dodum', sans-serif; color: #fff; font-size: 14px; text-align: justify; padding: 0px 10px; letter-spacing: 2px; line-height: 18px;}
+
+
+
+
+
+/*박스3*/
+#sub_box > #left_box > #box3 {width: 100%; height: 1500px; margin-top: 100px;}
+#sub_box > #left_box > #box3 > #box3_high {width: 100%; height: 710px;}
+
+#sub_box > #left_box > #box3 > #box3_high > #box {width: 100%; height: 120px; display: flex; flex-flow: column;}
+#sub_box > #left_box > #box3 > #box3_high > #box > #title {width: 100%; height: 50px;}
+#sub_box > #left_box > #box3 > #box3_high > #box > #title > h1 {font-family: 'Federo', sans-serif; font-size: 43px; color: #fff; margin-top: 30px; margin-left: 10px;}
+#sub_box > #left_box > #box3 > #box3_high > #box > #title > h1 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 18px; color: #fff; position: relative; bottom: 20px;}
+
+#sub_box > #left_box > #box3 > #box3_high > #box > #designer {width: 100%; height: 30px; text-align: right; margin-top: 23px; margin-top: 40px;}
+#sub_box > #left_box > #box3 > #box3_high > #box > #designer > h4 {font-family: 'Federo', sans-serif; font-size: 30px; color: #fff; margin-right: 10px;}
+#sub_box > #left_box > #box3 > #box3_high > #box > #designer > h4 > sub {font-family: 'Gowun Dodum', sans-serif; font-size: 15px; color: #fff;}
+
+#sub_box > #left_box > #box3 > #box3_high > .imgbox {width: 100%; height: 280px;}
+#sub_box > #left_box > #box3 > #box3_high > .imgbox > img {width: 100%; height: 100%;}
+#sub_box > #left_box > #box3 > #box3_high > .imgbox2 {width: 100%; height: 270px; margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; position: relative;}
+#sub_box > #left_box > #box3 > #box3_high > .imgbox2 > .imgbox {width: 100%; height: 250px; margin-top: 5px;}
+#sub_box > #left_box > #box3 > #box3_high > .imgbox2 > .imgbox > img {width: 100%; height: 100%;}
+
+
+#sub_box > #left_box > #box3 > #box3_center {width: 100%; height: 300px;  display: flex; justify-content: space-between;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text {width: 100%; height: 300px; margin: 0 auto; display: flex; flex-flow: column; justify-content: space-between; margin-top: 230px;}
+
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information {width: 100%; height: 140px; display: flex; flex-flow: column; justify-content: space-between;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_1 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_1 > #date {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_1 > #date > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_1 > #date > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px; font-weight: bold;}
+
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_2 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_2 > #place {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_2 > #place > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_2 > #place > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_3 {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_3 > #language {width: 277px; height: 40px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_3 > #language > p {font-family: 'Quicksand', sans-serif; color: #fff; font-size: 18px; line-height: 20px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #information > #information_3 > #language > p > span {font-family: 'Quicksand', sans-serif; color: #cbcff3; font-size: 14px;}
+
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #explanation {width: 100%; height: 300px;}
+
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #explanation > #in_explanation {width: 100%; height: 180px;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #explanation > #in_explanation > h1 {font-family: 'Gowun Dodum', sans-serif; color: #e4e5f1; font-size: 16px; text-align: center; margin-top: 20px; font-weight: bold;}
+#sub_box > #left_box > #box3 > #box3_center > #box_text > #explanation > #in_explanation > p {font-family: 'Gowun Dodum', sans-serif; color: #fff; font-size: 14px; text-align: justify; padding: 0px 10px; letter-spacing: 2px; line-height: 18px;}
+
+
+
+#sub_box > #left_box > .button {width: 200px; height: 50px; margin: 0 auto; margin-top: 100px;}
+#sub_box > #left_box > .button > button {width: 100%; height: 100%; font-family: 'Federo', sans-serif; color: #071959; background-color: #fdbd1f; border-radius: 20px; border: 0; font-size: 18px; font-weight: bold; transition: 0.5s; position: relative; z-index: 2;}
+#sub_box > #left_box > .button > button:hover {background-color: #fff; cursor: pointer;}
+
+
+/*오른쪽박스*/
+#sub_box > #right_box {width: 100%; height: 832px; margin-top: 60px;}
+
+/*검색*/
+#sub_box > #right_box > #search {width: 300px; height: 80px; margin: 0 auto;}
+#sub_box > #right_box > #search > input {width: 250px; height: 60px; background-color: #fff; border: 0; border-radius: 20px; margin: 10px 0 0 20px; padding: 20px;}
+#sub_box > #right_box > #search > button {width: 50px; height: 50px; background-color: #fdbd1f; border: 0; position: relative; bottom: 55px; left: 210px; border-radius: 20px;}
+#sub_box > #right_box > #search > button:hover {background-color: #fff;}
+#sub_box > #right_box > #search > button > i {font-size: 16px; color: #072666; width: 50px; height: 50px; margin: 0 0 -40px -5px;}
+#sub_box > #right_box > #search > button > i:hover {color: #fdbd1f;}
+
+/*달력*/
+#sub_box > #right_box > #schedule {width: 300px; height: 250px; margin: 0 auto; position: relative; top: 30px;}
+#sub_box > #right_box > #schedule > #text {width: 300px; height: 30px;}
+#sub_box > #right_box > #schedule > #text > h3 {font-family: 'Federo', sans-serif; color: #fff; letter-spacing: 3px; font-size: 14px; text-align: center; position: relative; top: 10px; font-weight: bold;}
+
+#sub_box > #right_box > #schedule > table {width: 280px; height: 200px; margin: 0 auto; position: relative; top: 10px; left: 0px;}
+#sub_box > #right_box > #schedule > table tr th {font-size: 14px; color: #fdbd1f; font-family: 'Voltaire', sans-serif; height: 30px; font-weight: bold;}
+#sub_box > #right_box > #schedule > table tr td { font-size: 14px; text-align: center;}
+#sub_box > #right_box > #schedule > table tr td > a {text-decoration: none; color: #fff; font-weight: bold;}
+
+
+#sub_box > #right_box > #schedule > table .mun1 > a {background-color: #ff3279; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .wed1 > a {background-color: #2acdd4; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .thu2 > a {background-color: #fdbd1f; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .sat2 > a {background-color: #9e5bff; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .tue3 > a {background-color: #9e5bff; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .fri3 > a {background-color: #fdbd1f; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .thu4 > a {background-color: #ff3279; border-radius: 20px;}
+#sub_box > #right_box > #schedule > table .fri4 > a {background-color: #2acdd4; border-radius: 20px;}
+
+
+/*sns*/
+#sub_box > #right_box > #sns {width: 300px; height: 200px; margin: 0 auto; position: relative; top: 30px;}
+#sub_box > #right_box > #sns > #text {width: 300px; height: 30px; }
+#sub_box > #right_box > #sns > #text > h3 {font-family: 'Federo', sans-serif; color: #fff; letter-spacing: 3px; font-size: 14px; text-align: center; position: relative; top: 10px; font-weight: bold;}
+
+#sub_box > #right_box > #sns > #sns_imgbox {width: 300px; height: 170px;  display: flex; flex-flow: row wrap; justify-content: space-evenly; align-items: center;}
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox {width: 70px; height: 70px; overflow: hidden;}
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox > a > img {width: 100%; height: 100%; transition: 0.8s;}
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox > a > img:hover {transform: scale(1.3);}
+
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox1 {width: 70px; height: 70px;}
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox1 > a > img {width: 100%; height: 100%; opacity: 0.3; border-radius: 10px;}
+
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox1 > i {font-size: 30px; color: #06195b; text-decoration: none; position: relative; bottom: 50px; left: 23px; transition: 0.5s; width: 70px; height: 70px;}
+#sub_box > #right_box > #sns > #sns_imgbox > .imgbox1 > i:hover {color: #ff3279; cursor: pointer;}
+
+
+/*공지사항*/
+#sub_box > #right_box > #expected {width: 300px; height: 150px; margin: 0 auto; position: relative; top: 50px;}
+#sub_box > #right_box > #expected > #text {width: 300px; height: 30px;}
+#sub_box > #right_box > #expected > #text > h3 {font-family: 'Federo', sans-serif; color: #fff; letter-spacing: 3px; font-size: 14px; text-align: center; position: relative; top: 10px; font-weight: bold;}
+#sub_box > #right_box > #expected > ul { display: flex; flex-flow: column wrap; align-items: center; margin: 0 auto; padding: 0px; padding: 10px 0px;}
+#sub_box > #right_box > #expected > ul > li > a { text-decoration: none; color: #fff; font-family: 'Gowun Dodum', sans-serif; font-size: 16px; line-height: 30px;}
+#sub_box > #right_box > #expected > ul > li > a:hover {color: #fdbd1f;}
+}
